@@ -13,7 +13,11 @@
 }
  
 function returnsAnAnonymousFunction () {
-    return function () {
+    return ()=>{
 
     }
-}
+  }
+
+  returnsAnAnonymousFunction()
+    
+
